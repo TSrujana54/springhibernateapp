@@ -1,0 +1,50 @@
+
+
+
+
+FC----------->HC(Handler Classes)
+  <------------	
+  
+  
+  
+FC----------->DGG(Data Guy Generator
+ <------------
+ (data+location)
+ 
+ 
+FC------------>VR(view Resolver)
+  <-------------
+  
+FC------------>V (view) 	
+
+
+
+<bean id="employee" autowired="byType">
+<bean>
+<bean id="presentAdd" class="com.model.Address">
+</bean>
+
+
+autowired : byName,byType, byConstructor
+
+
+Employee{
+Address presentAdd;
+Address permanentAdd
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
